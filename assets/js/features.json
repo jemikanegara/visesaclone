@@ -1,0 +1,40 @@
+{
+  "features": [
+    {
+      "title": "ALWAYS THE LOWEST PRICE",
+      "description": [
+        "Book Direct and Save up to 35% Compared to Other Travel Sites",
+        "30% Discount on Visesa Balinese Healing & Spa",
+        "10% Discount on Food & Beverages"
+      ]
+    },
+    {
+      "title": "VIP AIRPORT PICKUP",
+      "description": ["Book min. stay 5 nights for all room types"]
+    },
+    {
+      "title": "FREE DAILY LIFE ACTIVITIES",
+      "description": [
+        "Animal caring",
+        "Offering procession",
+        "Permaculture activities",
+        "Making offering",
+        "Rooster activities",
+        "Dance & gamelan",
+        "Re – assembling animal"
+      ]
+    },
+    {
+      "title": "FREE KIDS ACTIVITIES",
+      "description": [
+        "Duck egg collecting",
+        "Duck feeding",
+        "Goose feeding",
+        "Duck caring",
+        "Roster caring",
+        "Roster feeding",
+        "Fish feeding"
+      ]
+    }
+  ]
+}
