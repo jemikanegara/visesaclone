@@ -3,12 +3,26 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 /* Common Usage Class */
+.container {
+  width: 100%;
+  max-width: 1170px;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-dir {
+  flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
 }
 
 .space-between {
@@ -33,7 +47,7 @@
 
 /* Header */
 .fixed-header {
-  height: 250px;
+  height: 50px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -51,18 +65,34 @@
   background: #ae6059;
 }
 
-@media (min-width: 500px) {
+.features .container {
+  margin-top: 20px;
+}
+
+.features h3 {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 540px) {
   .feature-list {
-    width: 25%;
-    max-width: 300px;
+    flex: 100%;
     padding: 10px;
+    text-align: center;
+    line-height: 1.7em;
+    color: white;
   }
 }
 
-.feature-list {
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
+@media (min-width: 541px) {
+  .feature-list {
+    flex: 25%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.7em;
+    color: white;
+  }
 }
 
 .feature-list ul {
@@ -73,7 +103,207 @@
   font-size: 40px;
 }
 
+.features .booknow {
+  width: 100%;
+  margin: 20px 0 30px;
+  padding: 10px;
+}
+
+.features .line {
+  width: 10%;
+  margin: 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.features .centered-line {
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 2px;
+  border: solid 1px white;
+}
+
+.booknow button {
+  background: white;
+  color: #ae6059;
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.booknow button:hover {
+  color: #999;
+}
+
 /* Special Package Offer */
 .package {
   width: 100%;
+  margin: 30px 0;
+}
+
+.package h2 {
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.package hr {
+  width: 40px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.package p {
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+/* Story */
+.story {
+  line-height: 1.7em;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+}
+
+.story h6 {
+  font-size: 11px;
+  margin: 30px 0 20px;
+}
+
+.story h2 {
+  font-size: 30px;
+}
+
+.story hr {
+  width: 40px;
+  margin: 20px 0;
+}
+
+.story .story-desc {
+  font-style: italic;
+}
+
+.story .article {
+  padding: 0 5%;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+.story .story-picture,
+.story .article {
+  width: 50%;
+}
+
+.story img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Philosophy */
+
+.philosophy {
+  background: #222;
+  color: white;
+  letter-spacing: 0.24px;
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+.philosophy h6 {
+  font-size: 11px;
+  margin: 30px 0 20px;
+}
+
+.philosophy h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.philosophy hr {
+  width: 40px;
+  margin: 20px 0;
+}
+
+.philosophy .article {
+  padding: 0 5%;
+}
+
+.philosophy .philosophy-picture,
+.philosophy .article {
+  width: 48%;
+}
+
+.philosophy img {
+  width: 100%;
+}
+
+/* Experience Description */
+.experience-desc {
+  letter-spacing: 0.24px;
+  line-height: 1.7em;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.experience-desc h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.experience-desc hr {
+  width: 40px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.experience-desc p {
+  font-style: italic;
+}
+
+/* Experience Action Call */
+.experience-action-call {
+  display: flex;
+  justify-content: center;
+}
+.experience-action-call h4 {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.experience-action-call .button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.experience-action-call a {
+  font-size: 15px;
+  padding: 5px 10px;
+  background: #ad655f;
+  border: 1px solid #b94b41;
+  color: white;
+  border-radius: 4px;
+  margin: 10px auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.experience-action-call a:hover {
+  padding: 5px 10px;
+  margin: 10px auto;
+  background: #eee;
+  color: black;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.separator {
+  max-width: 1180px;
+  margin: 0 auto;
 }
