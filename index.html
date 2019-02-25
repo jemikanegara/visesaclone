@@ -14,34 +14,163 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-
-    <link
-      rel="stylesheet"
-      property="stylesheet"
-      id="rs-icon-set-fa-icon-css"
-      href="https://www.visesaubud.com/themes/visesa/assets/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css"
-      type="text/css"
-      media="all"
-    />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css"
     />
   </head>
   <body>
+    <!-- Full Navigation -->
+    <nav class="full-nav hidden" id="full-nav">
+      <div class="flex" id="close-nav"><div class="close-nav">X</div></div>
+      <a href="/"><strong>HOME</strong></a> <a href="/">ACCOMODATION</a>
+      <a href="/">VISESA CULTURE</a> <a href="/">VISESA SPA</a>
+      <a href="/">VISESA DINING</a> <a href="/">MEETINGS & WEDDINGS</a>
+      <a href="/">OVERVIEW</a> <a href="/">SPECIAL OFFERS</a>
+      <a href="/">NEWS</a> <a href="/">GALLERY</a> <a href="/">CONTACT</a>
+    </nav>
+
     <!-- Header -->
-    <header class="fixed-header flex space-between">
-      <div class="">LEFT</div>
-      <div class="">RIGHT</div>
+    <header class="fixed-header-1" id="header-1">
+      <div class="container flex space-between">
+        <div class="flex left-header space-between">
+          <div class="flex">
+            <div class="icons burger-menu" id="open-nav"></div>
+            <div class="icons share"><i class="fa fa-share-alt"></i></div>
+            <div class="icons circle-spin">
+              <i class="fa fa-circle-o-notch fa-spin"></i>
+            </div>
+          </div>
+          <div class="main-logo">
+            <img
+              src="https://www.visesaubud.com/themes/visesa/assets/wp-content/uploads/2017/05/desa_visesa_logo_white_version.svg"
+              alt=""
+              width="192"
+              height="16"
+            />
+          </div>
+        </div>
+
+        <div class="flex right-header">
+          <!-- Phone -->
+          <div class="right-header-section tel">
+            <a href="tel://+623612091788">Call Center +62 361 209 1788</a>
+          </div>
+          <!-- Mail -->
+          <div class="right-header-section">
+            <a href="https://www.visesaubud.com/enquire"
+              ><i class="fa fa-envelope-open-o"></i
+            ></a>
+          </div>
+          <!-- Language -->
+          <div class="right-header-section language">
+            <a
+              ><img
+                src="https://www.visesaubud.com/themes/visesa/assets/images/lang/if_United-Kingdom-flag_32363.png"
+            /></a>
+
+            <div class="language-dropdown">
+              <a href="/"
+                ><img
+                  src="https://www.visesaubud.com/themes/visesa/assets/images/lang/if_United-Kingdom-flag_32363.png"
+              /></a>
+              <a href="http://visesaubud.com.cn"
+                ><img
+                  src="https://cdn2.iconfinder.com/data/icons/flags-20/100/China_flag-512.png"
+              /></a>
+            </div>
+          </div>
+          <!-- Book Now -->
+          <div class="right-header-section booknow">
+            <button>BOOK NOW</button>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <header class="fixed-header-2 hidden" id="header-2">
+      <div class="container flex flex-center">
+        <div class="main-logo">
+          <a href="/">
+            <img
+              src="https://www.visesaubud.com/themes/visesa/assets/wp-content/uploads/2017/05/desa_visesa_logo_white_version.svg"
+            />
+          </a>
+        </div>
+        <div class="nav flex">
+          <div class="navlist flex"><a href="/">SPECIAL OFFERS</a></div>
+          <div class="navlist flex dropdown accomodation">
+            <a href="/">ACCOMODATION</a>
+            <div class="accomodation-sub">
+              <div class="navlist">
+                <div class="link"><a href="/">SUITES</a></div>
+                <div class="link"><a href="/">VILLAS</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="navlist flex dropdown visesa-experience">
+            <a href="/">VISESA EXPERIENCE</a>
+            <div class="visesa-experience-sub">
+              <div>
+                <div class="link visesa-culture">
+                  <a href="/"
+                    >VISESA CULTURE<i
+                      class="fa fa-caret-right pull-right"
+                      style="margin-top: 3px;"
+                    ></i
+                  ></a>
+
+                  <div class="visesa-culture-sub">
+                    <div>
+                      <div class="link">
+                        <a href="/">BALINESE LIVING ARTS</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="link"><a href="/">VISESA SPA</a></div>
+                <div class="link visesa-dining">
+                  <a href="/"
+                    >VISESA DINING<i
+                      class="fa fa-caret-right pull-right"
+                      style="margin-top: 3px;"
+                    ></i
+                  ></a>
+                  <div class="visesa-dining-sub">
+                    <div>
+                      <div class="link">
+                        <a href="/">LESUNG RESTAURANT</a>
+                        <a href="/">PADI FINE DINING RESTAURANT</a>
+                        <a href="/">LUMBUNG RESTAURANT</a>
+                        <a href="/">WARUNG TANI</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navlist flex"><a href="/">MEETINGS & WEDDINGS</a></div>
+          <div class="navlist flex dropdown overview">
+            <a href="/">OVERVIEW</a>
+            <div class="overview-sub">
+              <div class="navlist">
+                <div class="link"><a href="/">NEWS</a></div>
+                <div class="link"><a href="/">GALLERY</a></div>
+                <div class="link"><a href="/">CONTACT</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booknow flex"><a href="/">BOOK NOW</a></div>
+      </div>
+    </header>
     <!-- Videos -->
     <div><img class="main-image" src="assets/images/pool.jpg" /></div>
 
     <!-- Features -->
     <div class="features flex flex-center">
-      <div class="container flex flex-wrap flex-dir ">
+      <div class="container flex flex-dir ">
         <div class="feature-list">
           <i class="fa fa-tags white center" aria-hidden="true"></i>
           <h3 class="white center">ALWAYS THE LOWEST PRICE</h3>
@@ -182,7 +311,7 @@
 
     <!-- Story -->
 
-    <div class="story flex flex-wrap">
+    <div class="story flex">
       <div class="article">
         <h6>OUR STORY</h6>
         <h2>Honoring Past Traditions</h2>
@@ -258,16 +387,41 @@
     </div>
 
     <!-- Experience Article -->
-    <div class="experience-article flex">
-      <div class="article-1">
-        <img src="assets/images/pool.jpg" />
-        <h3>VISESA CULTURE</h3>
-        <p>Desa Visesa presents a wealth of activities that</p>
-        <div id="show-experience-1">SHOW MORE ::</div>
-        <div class="hidden">
-          reflect the authentic lifestyle and heritage traditions of a Balinese
-          village.
-          <div id="hide-experience-1">SHOW LESS ::</div>
+    <div class="container">
+      <div class="experience-articles flex space-between">
+        <div class="exp-article">
+          <img src="assets/images/pool.jpg" />
+          <h3>VISESA CULTURE</h3>
+          <p>Desa Visesa presents a wealth of activities that</p>
+          <div class="show-experience">SHOW MORE ::</div>
+          <div class="hidden">
+            reflect the authentic lifestyle and heritage traditions of a
+            Balinese village.
+            <div class="hide-experience">SHOW LESS ::</div>
+          </div>
+        </div>
+        <div class="exp-article">
+          <img src="assets/images/pool.jpg" />
+          <h3>VISESA BALINESE HEALING & SPA</h3>
+          <p>The Visesa Spa philosophy is based on authentic</p>
+          <div class="show-experience">SHOW MORE ::</div>
+          <div class="hidden">
+            Bali Usada principles, a traditional knowledge for curing ailments
+            with Ayurvedic medicinal plants, herbs and spices.
+            <div class="hide-experience">SHOW LESS ::</div>
+          </div>
+        </div>
+        <div class="exp-article">
+          <img src="assets/images/pool.jpg" />
+          <h3>VISESA DINING</h3>
+          <p>Discover some celebrated recipes of the flavored</p>
+          <div class="show-experience">SHOW MORE ::</div>
+          <div class="hidden">
+            and colorful Indonesian cuisine. Our talented chefs have created a
+            menu that delivers surprising tastes and textures with subtle
+            elegance.
+            <div class="hide-experience">SHOW LESS ::</div>
+          </div>
         </div>
       </div>
     </div>
@@ -296,115 +450,411 @@
             <li>TOP 10 HIDDEN VILLAS IN BALI</li>
             <li>Road to Recovery at Desa Visesa Ubud</li>
           </ul>
+
+          <h5>INTIMATE FLOATING BREAKFAST</h5>
+          <hr />
+          <img
+            src="https://www.visesaubud.com/storage/app/media/Floating%20Breakfast%20VISESA%20WEB%20938x528px.jpg"
+          />
         </div>
         <div class="special article">
           <h2>Special</h2>
           <hr />
-
           <h3>WONDERFUL MARCH</h3>
+          <div>Inclusion</div>
+          <ul>
+            <li>
+              2 Nights stay at Premier Suite Room / One Bedroom Villa / Two
+              Bedroom Villa
+            </li>
+            <li>
+              Daily Breakfast for 2 (Premier Suite & One Bedroom Villa), 4 (Two
+              Bedroom Villa)
+            </li>
+            <li>
+              One time lunch at Warung Tani for 2 (Premier Suite & One Bedroom
+              Villa), 4 (Two Bedroom Villa)
+            </li>
+            <li>
+              One time dinner at Lumbung Restaurant for 2 (Premier Suite & One
+              Bedroom Villa), 4 (Two Bedroom Villa)
+            </li>
+            <li>Complimentary Nyepi Escape Activity</li>
+            <li>Exclusive space to watch Ogoh-Ogoh parade in Ubud Center</li>
+            <li>
+              Complimentary for Children under 12 Years Old (Using Existing Bed)
+            </li>
+          </ul>
         </div>
         <div class="whats-on article">
           <h2>What's On</h2>
           <hr />
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="date">7 MARCH 2019</div>
+            <div class="title">Nyepi Day</div>
+            <div class="desc">
+              The day of absolute silence for Hindu followers, when no activity
+              is done, no fire is lit, no traveling anywhere and no amusement is
+              held for the day and night.
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Email Subscribe -->
     <div class="email-subscribe">
-      <div class="box center">
-        <p class="box-title">
-          Reconnect with the simple beauty of nature with an enriching
-          permaculture experience
-        </p>
-        <p class="box-desc">
-          Keeping the balance and harmony between human, nature and God
-        </p>
-        <h6>GET SPECIAL OFFER FROM US</h6>
-        <form class="subscribe-input flex">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Email Address" />
-          <input type="submit" value="GET IT!" />
-        </form>
+      <div class="box-email">
+        <div class="box-content center">
+          <h2 class="box-title">
+            Reconnect with the simple beauty of nature with an enriching
+            permaculture experience
+          </h2>
+          <hr />
+          <p class="box-desc">
+            Keeping the balance and harmony between human, nature and God
+          </p>
+          <h6>GET SPECIAL OFFER FROM US</h6>
+          <form class="subscribe-input flex">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Your Email Address" class="email" />
+            <input type="submit" value="GET IT!" />
+          </form>
+        </div>
       </div>
     </div>
 
     <!-- Instagram -->
     <div class="instagram">
-      <div class="instagram-username center">DESAVISESA</div>
-      <div class="instagram-photo">PHOTO</div>
+      <div class="flex flex-center">
+        <div class="instagram-username">DESAVISESA</div>
+      </div>
+      <div class="instagram-photo flex">
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+        <a href="https://www.instagram.com/p/BuRAFNCHJ7g/">
+          <img
+            src="https://scontent.cdninstagram.com/vp/73c06cfab7a2427dc5ffc5601d5da7da/5D25E5D6/t51.2885-15/e35/s150x150/53253059_305725723462831_5551105149847635651_n.jpg?_nc_ht=scontent.cdninstagram.com"
+          />
+        </a>
+      </div>
     </div>
 
     <!-- Footer Info -->
-    <div class="footer-info flex">
-      <!-- Footer Subscribe -->
-      <div class="footer-subscribe">
-        <img
-          src="https://www.visesaubud.com/themes/visesa/assets/wp-content/uploads/2017/05/desa_visesa_logo_color.svg"
-        />
-        <h6>GET SPECIAL OFFER FROM US</h6>
-        <form class="subscribe-input">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Email Address" />
-          <input type="submit" value="GET IT!" />
-        </form>
-      </div>
+    <div class="footer-info">
+      <div class="container flex flex-center">
+        <!-- Footer Subscribe -->
+        <div class="footer-subscribe section">
+          <div class="flex flex-center">
+            <img
+              src="https://www.visesaubud.com/themes/visesa/assets/wp-content/uploads/2017/05/desa_visesa_logo_color.svg"
+            />
+          </div>
+          <h6>GET SPECIAL OFFER FROM US</h6>
+          <form class="offer-input">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Email Address" />
+            <input type="submit" value="GET IT!" />
+          </form>
+        </div>
 
-      <!-- Footer Location -->
-      <div class="location">
-        <div class="location-title">OUR LOCATION</div>
-        <ul>
-          <li>Desa Visesa Ubud</li>
-          <li>Jl. Suweta, Banjar Bentuyung Sakti</li>
-          <li>Ubud - Gianyar 80571</li>
-          <li>Bali - Indonesia</li>
-          <li>Call Center : +62 877 4532 5571</li>
-        </ul>
-        <a
-          href="https://www.google.com/maps/dir/-8.6777856,115.1934464/Desa+Visesa+Ubud,+Banjar+Bentuyung+Sakti,,+Jalan+Suweta,+Ubud,+Kabupaten+Gianyar,+Bali+80571,+Indonesia/@-8.5858429,115.1592819,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2dd23d4bb923195d:0xfd5fabcae2ec446!2m2!1d115.26305!2d-8.489912"
-          ><button>GET DIRECTIONS</button></a
-        >
-      </div>
-
-      <!-- Footer Mobile APP -->
-      <div class="mobile-app">
-        <div class="mobile-app-title">DESA VISESA UBUD</div>
-        <ul>
-          <a href="#"><li>ACCOMMODATION</li></a>
-          <a href="#"><li>SPECIAL OFFERS</li></a>
+        <!-- Footer Location -->
+        <div class="location section">
+          <div class="location-title">OUR LOCATION</div>
+          <ul>
+            <li>Desa Visesa Ubud</li>
+            <li>Jl. Suweta, Banjar Bentuyung Sakti</li>
+            <li>Ubud - Gianyar 80571</li>
+            <li>Bali - Indonesia</li>
+            <li>Call Center : +62 877 4532 5571</li>
+          </ul>
           <a
-            href="https://play.google.com/store/apps/details?id=id.compro.desavisesaubud"
-            ><img src="http://cdn-mindimedia.imgix.net/googleplay.jpg"
-          /></a>
-          <a
-            href="https://itunes.apple.com/id/app/desa-visesa-ubud/id1437372770?mt=8"
-            ><img src="http://cdn-mindimedia.imgix.net/visesa-app.jpg"
-          /></a>
-        </ul>
-      </div>
+            href="https://www.google.com/maps/dir/-8.6777856,115.1934464/Desa+Visesa+Ubud,+Banjar+Bentuyung+Sakti,,+Jalan+Suweta,+Ubud,+Kabupaten+Gianyar,+Bali+80571,+Indonesia/@-8.5858429,115.1592819,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2dd23d4bb923195d:0xfd5fabcae2ec446!2m2!1d115.26305!2d-8.489912"
+            >GET DIRECTIONS</a
+          >
+        </div>
 
-      <!-- Footer TripAdvisor -->
-      <div class="tripadvisor">
-        TRIPADVISOR images “Unbelievable”
-        <p>
-          We came for the start of our trip to bali and absolutely loved it!! it
-          completely exceeded all our expectations! the...
-        </p>
-        <p>ALEXANDER D</p>
+        <!-- Footer Mobile APP -->
+        <div class="mobile-app section">
+          <div class="mobile-app-title">DESA VISESA UBUD</div>
+          <ul>
+            <li><a href="#">ACCOMMODATION</a></li>
+            <li><a href="#">SPECIAL OFFERS</a></li>
+            <li>
+              <a
+                href="https://play.google.com/store/apps/details?id=id.compro.desavisesaubud"
+                ><img src="http://cdn-mindimedia.imgix.net/googleplay.jpg"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://itunes.apple.com/id/app/desa-visesa-ubud/id1437372770?mt=8"
+                ><img src="http://cdn-mindimedia.imgix.net/visesa-app.jpg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Footer TripAdvisor -->
+        <div class="tripadvisor section">
+          <div class="tripadvisor-image">
+            <i
+              style="color: #ad655f; text-align:center;"
+              class="fa fa-tripadvisor fa-4x"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="tripadvisor-title">“Unbelievable”</div>
+          <p>
+            We came for the start of our trip to bali and absolutely loved it!!
+            it completely exceeded all our expectations! the...
+          </p>
+          <div class="dot">
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+          </div>
+          <p>ALEXANDER D</p>
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
 
-    <footer class="footer flex space-between">
-      <div>
-        © 2016 - 2017. Desa Visesa Ubud. All rights reserved, powered by
-        Mindimedia
+    <footer class="footer">
+      <div class="container flex space-between">
+        <div class="desc">
+          © 2016 - 2017. Desa Visesa Ubud. All rights reserved, powered by
+          Mindimedia
+        </div>
+        <div class="flex">
+          <a
+            class="logo instagram-logo"
+            target="_blank"
+            title="Instagram"
+            href="http://instagram.com/desavisesa"
+          ></a>
+          <a
+            class="logo google-plus-logo"
+            target="_blank"
+            title="Google+"
+            href="https://plus.google.com/u/1/105894328130858220718"
+          ></a>
+          <a
+            class="logo youtube-logo"
+            target="_blank"
+            title="Youtube"
+            href="https://www.youtube.com/channel/UCcXKHU2SxYSwkpOx-80NgSw/featured"
+          ></a>
+          <a
+            class="logo twitter-logo"
+            target="_blank"
+            title="Twitter"
+            href="http://twitter.com/desavisesa"
+          ></a>
+          <a
+            class="logo facebook-logo"
+            target="_blank"
+            title="Facebook"
+            href="https://business.facebook.com/desavisesa/"
+          ></a>
+          <a
+            class="logo bridestory-logo"
+            target="_blank"
+            title="Bride Story"
+            href="https://www.bridestory.com/desa-visesa-ubud"
+          >
+          </a>
+          <a
+            class="logo line-logo"
+            target="_blank"
+            title="Line"
+            href="https://line.me/R/ti/p/%40desavisesa"
+          >
+          </a>
+        </div>
       </div>
-      <div class="flex">SOSMED</div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="assets/js/fullnav.js"></script>
+    <script src="assets/js/scrollheader.js"></script>
     <script src="assets/js/slider.js"></script>
   </body>
 </html>
