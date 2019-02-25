@@ -659,6 +659,11 @@
   height: 100%;
 }
 
+.story .toggle-story {
+  color: #ad655f;
+  cursor: pointer;
+  text-align: right;
+}
 /* Philosophy */
 
 .philosophy {

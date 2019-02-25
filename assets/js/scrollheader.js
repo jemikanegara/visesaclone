@@ -3,12 +3,11 @@ const scrollHeader = () => {
     document.body.scrollTop > 250 ||
     document.documentElement.scrollTop > 250
   ) {
-    document.getElementById("header-1").className = "hidden";
-    document.getElementById("header-2").className = "fixed-header-2";
-    console.log("work");
+    document.getElementById("header-1").classList.add("hidden");
+    document.getElementById("header-2").classList.remove("hidden");
   } else {
-    document.getElementById("header-1").className = "fixed-header-1";
-    document.getElementById("header-2").className = " hidden";
+    document.getElementById("header-1").classList.remove("hidden");
+    document.getElementById("header-2").className.add("hidden");
   }
 };
 

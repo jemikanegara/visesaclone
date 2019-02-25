@@ -3,11 +3,11 @@ const navCloser = document.getElementById("close-nav");
 const navOpener = document.getElementById("open-nav");
 
 const closeNav = () => {
-  fullNav.className = "full-nav hidden";
+  fullNav.classList.add("hidden");
 };
 
 const openNav = () => {
-  fullNav.className = "full-nav";
+  fullNav.classList.remove("hidden");
 };
 
 navCloser.addEventListener("click", closeNav);
