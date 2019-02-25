@@ -858,11 +858,31 @@
   text-align: justify;
 }
 
+.information .special a {
+  background: #ad655f;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin: 20% 10%;
+}
+
+.information .special .toggle-special {
+  color: #ad655f;
+  text-align: right;
+  cursor: pointer;
+}
+
 .information .timeline {
   padding-left: 5%;
   border-left: 1px solid #999;
   position: relative;
   line-height: 1.5em;
+}
+
+.information .toggle-timeline {
+  color: #ad655f;
+  text-align: right;
+  cursor: pointer;
 }
 
 .information .timeline::before {
